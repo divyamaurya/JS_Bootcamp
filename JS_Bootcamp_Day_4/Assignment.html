@@ -1,0 +1,30 @@
+<!-- // Create a webpage with a form containing input fields for the principal
+amount, interest rate, and loan tenure.
+// Use CSS to style the form and make it
+visually appealing. 
+// Implement JavaScript logic to calculate the EMI based on
+user input. 
+// Display the calculated EMI on the webpage. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EMI calculator</title>
+    <link rel="stylesheet" href="Assignment.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>EMI calculator</h2>
+      <h1 class="icons" id="result">🚘</h1>
+      <div class="flex">
+        <input type="text" id="principal" placeholder="Principal" />
+        <input type="text" id="rate" placeholder="Rate" />
+        <input type="text" id="loanterm" placeholder="Loan term" />
+      </div>
+      <button class="btn" onclick="emi()">Calculate EMI</button>
+    </div>
+    <script src="Assignment.js"></script>
+  </body>
+</html>
